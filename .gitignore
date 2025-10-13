@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.mo
+*.db
+*.sqlite3
+
+# Environment
+.env
+venv/
+env/
+ENV/
+.venv/
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# Migrations (optional — αν δεν θέλεις να ανεβάζεις αρχικά)
+# **πρόσεχε:** συνήθως κρατάμε migrations στο git
+# */migrations/
+# !*/migrations/__init__.py
+
+# Static & media files
+/static/
+media/
+staticfiles/
+node_modules/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Cache
+*.cache
+*.log
+*.tmp
+
+# Testing
+.coverage
+.tox/
+.pytest_cache/
+
+# Pipenv / Poetry
+Pipfile.lock
+poetry.lock
